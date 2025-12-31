@@ -168,41 +168,70 @@ export const USE_CASES = [
 export const PRICING_PLANS = [
   {
     name: 'Launch',
-    price: '$2,500',
-    description: 'Establish your presence with an automated high-performance system.',
+    setup: '$300',
+    monthly: '$49/month',
+    description: '1-page or mini landing site (Next.js) designed to convert visitors into leads',
     features: [
-      'Custom Next.js Landing Page',
-      'AI Lead Capture Engine',
-      'CRM Integration',
-      'Basic Workflow Automation',
-      '90-Day Performance Audit'
-    ]
+      'AI Lead Capture Bot (WhatsApp / IG / Website)',
+      'Leads stored in Google Sheets or MongoDB',
+      'Basic workflow automation (n8n)',
+      'Instant Email / WhatsApp notifications',
+      '30-day performance check-in'
+    ],
+    cta: 'Get Started'
   },
   {
     name: 'Growth',
-    price: '$5,000',
-    description: 'The standard for businesses ready to dominate their market.',
+    setup: '$700',
+    monthly: '$99/month',
+    description: 'Full multi-page platform or dashboard for your business',
     features: [
-      'Full Multi-Page Platform',
-      '24/7 AI Sales Agent (WA/IG)',
-      'Advanced Multi-App Automation',
-      'Performance Dashboard',
-      'SEO Content Strategy',
-      'Priority Tech Support'
+      '24/7 AI Sales Agent (WhatsApp / IG)',
+      'Multi-app workflow automation (n8n)',
+      'Booking + CRM integration',
+      'Basic SEO & content optimization',
+      'Bi-weekly performance report',
+      'Priority tech support'
     ],
+    cta: 'Start Growing',
     recommended: true
   },
   {
     name: 'Elite',
-    price: 'Custom',
-    description: 'Custom infrastructure for complex operations and high volume.',
+    setup: '$1,500+',
+    monthly: '$199/month',
+    description: 'Full custom system (MERN + n8n + AI) tailored to your business',
     features: [
-      'Full-Scale Custom Software',
-      'Multi-Model AI Integration',
-      'Internal Operation Dashboards',
-      'Dedicated Tech Squad',
-      'Monthly Strategic Reviews',
-      '24/7 Uptime Monitoring'
-    ]
+      'Multi-model AI integrations (chat, lead scoring, email automation)',
+      'Internal operations dashboards & analytics',
+      'Payment & invoice automation',
+      'Monthly strategy review & optimization',
+      'Dedicated support & monitoring (uptime + bug fixes)',
+      'Optional custom requests for enterprise needs'
+    ],
+    cta: 'Go Elite'
+  }
+];
+
+export const ADD_ONS = [
+  {
+    name: 'Extra AI workflows / chatbots',
+    price: '$50–$150 per flow',
+    description: 'Additional AI automation workflows and chatbots'
+  },
+  {
+    name: 'Additional integrations',
+    price: '$50–$100/month',
+    description: 'Stripe, CRM, Google Workspace integrations'
+  },
+  {
+    name: '24/7 priority support',
+    price: '$50–$100/month',
+    description: 'Round-the-clock priority technical support'
+  },
+  {
+    name: 'Custom analytics & dashboards',
+    price: '$100–$300 one-time',
+    description: 'Custom business intelligence and analytics dashboards'
   }
 ];

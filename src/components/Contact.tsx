@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Email Us</p>
-                  <p className="text-lg font-bold">hello@nexflow.agency</p>
+                  <p className="text-lg font-bold">tasindevx@outlook.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
@@ -29,17 +29,17 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">WhatsApp</p>
-                  <p className="text-lg font-bold">+1 (555) 000-0000</p>
+                  <p className="text-lg font-bold">+880 16021-79536</p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
                 <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center text-pink-500">
                   <MapPin className="w-6 h-6" />
                 </div>
-                <div>
+                {/* <div>
                   <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Office</p>
                   <p className="text-lg font-bold">San Francisco, CA / Remote</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

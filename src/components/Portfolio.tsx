@@ -2,8 +2,28 @@
 import React from 'react';
 import { CASE_STUDIES } from '../constants';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Portfolio: React.FC = () => {
+  const navigate = useNavigate();
+
+  const getCaseStudyPath = (title: string) => {
+    switch(title) {
+      case 'MedFlow Clinic':
+        return '/case-study/medflow';
+      case 'Titan Real Estate':
+        return '/case-study/titan-realestate';
+      case 'SolarScale SaaS':
+        return '/case-study/solarscale';
+      default:
+        return '/';
+    }
+  };
+
+  const handleViewCaseStudy = (title: string) => {
+    navigate(getCaseStudyPath(title));
+  };
+
   return (
     <section id="portfolio" className="py-32 bg-[#050505]">
       <div className="max-w-7xl mx-auto px-6">
@@ -19,11 +39,11 @@ const Portfolio: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {CASE_STUDIES.map((study, idx) => (
-            <div key={idx} className="group glass-card rounded-[32px] overflow-hidden flex flex-col">
+            <div key={idx} className="group glass-card rounded-[32px] overflow-hidden flex flex-col cursor-pointer" onClick={() => handleViewCaseStudy(study.title)}>
               <div className="relative h-64 overflow-hidden">
-                <img 
-                  src={study.image} 
-                  alt={study.title} 
+                <img
+                  src={study.image}
+                  alt={study.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
@@ -40,9 +60,9 @@ const Portfolio: React.FC = () => {
                   <p className="text-sm text-gray-500"><strong className="text-gray-300">Solution:</strong> {study.solution}</p>
                   <p className="text-sm text-green-400 font-bold"><strong className="text-gray-300 font-normal">Result:</strong> {study.result}</p>
                 </div>
-                <button className="flex items-center gap-2 text-sm font-bold text-white group-hover:text-blue-400 transition-colors uppercase tracking-widest">
+                <div className="flex items-center gap-2 text-sm font-bold text-white group-hover:text-blue-400 transition-colors uppercase tracking-widest">
                   View Full Case Study <ArrowRight className="w-4 h-4" />
-                </button>
+                </div>
               </div>
             </div>
           ))}

@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center font-bold text-white text-[10px] italic">
-                N
+                TZS
               </div>
-              <span className="text-lg font-extrabold tracking-tight">NEXFLOW</span>
+              <span className="text-lg font-extrabold tracking-tight">Tzs Pixels</span>
             </div>
             <p className="text-sm text-gray-500 max-w-xs leading-relaxed">
               Building high-performance digital engines that drive growth through automation and premium web experiences.
