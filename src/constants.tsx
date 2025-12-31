@@ -1,17 +1,11 @@
 
-import React from 'react';
+
 import { 
-  Zap, 
-  Bot, 
-  Globe, 
+  Zap,  
   BarChart3, 
-  Clock, 
-  Smartphone, 
   MessageSquare, 
   Calendar,
   TrendingUp,
-  Cpu,
-  Layers,
   ShieldCheck,
   Code2,
   Workflow,
