@@ -88,6 +88,12 @@ const Pricing: React.FC = () => {
             ))}
           </div>
         </div>
+
+        <div className="mt-16 text-center">
+          <p className="text-gray-500 text-sm italic">
+            * Monthly fees are subject to change as running costs increase. Setup fees are fixed at the time of purchase.
+          </p>
+        </div>
       </div>
     </section>
   );

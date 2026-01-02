@@ -169,7 +169,7 @@ export const PRICING_PLANS = [
   {
     name: 'Launch',
     setup: '$300',
-    monthly: '$49/month',
+    monthly: '$79/month',
     description: '1-page or mini landing site (Next.js) designed to convert visitors into leads',
     features: [
       'AI Lead Capture Bot (WhatsApp / IG / Website)',
@@ -182,8 +182,8 @@ export const PRICING_PLANS = [
   },
   {
     name: 'Growth',
-    setup: '$700',
-    monthly: '$99/month',
+    setup: '$1,500',
+    monthly: '$299/month',
     description: 'Full multi-page platform or dashboard for your business',
     features: [
       '24/7 AI Sales Agent (WhatsApp / IG)',
@@ -198,8 +198,8 @@ export const PRICING_PLANS = [
   },
   {
     name: 'Elite',
-    setup: '$1,500+',
-    monthly: '$199/month',
+    setup: '$7,500+',
+    monthly: '$799/month',
     description: 'Full custom system (MERN + n8n + AI) tailored to your business',
     features: [
       'Multi-model AI integrations (chat, lead scoring, email automation)',
