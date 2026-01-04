@@ -196,54 +196,54 @@ export const USE_CASES = [
 /* =========================
    PRICING
 ========================= */
-
 export const PRICING_PLANS = [
   {
-    name: 'Launch',
-    setup: '$300',
-    monthly: '$79/month',
-    description: 'Conversion-focused landing system to start capturing leads automatically',
+    name: 'Starter',
+    setup: '$99',
+    monthly: '$39/month',
+    description: 'Simple AI chatbot system to start capturing and responding to leads automatically',
     features: [
-      'AI Lead Capture Bot (Website, WhatsApp, Instagram, Messenger)',
-      'Lead storage in Google Sheets or MongoDB',
-      'Basic automation (lead → notification)',
-      'Instant Email & WhatsApp alerts',
-      '30-day performance check-in'
+      'AI Chatbot (Website OR WhatsApp OR Instagram OR Messenger)',
+      'Lead capture to Google Sheets or CRM',
+      'Instant Email & WhatsApp notifications',
+      'Basic automation (1 workflow)',
+      '14 days post-launch support'
     ],
     cta: 'Get Started'
   },
   {
     name: 'Growth',
-    setup: '$1,500',
-    monthly: '$299/month',
-    description: 'Omnichannel AI sales and automation system for growing businesses',
+    setup: '$499',
+    monthly: '$99/month',
+    description: 'Omnichannel AI sales agent and automation system for scaling businesses',
     features: [
-      '24/7 AI Sales Agent (WhatsApp, Instagram, Messenger)',
-      'Multi-app workflow automation (n8n)',
-      'Appointment booking + CRM integration',
-      'Basic SEO & content optimization',
-      'Bi-weekly performance reports',
-      'Priority technical support'
+      '24/7 AI Sales Agent (WhatsApp + Instagram + Messenger)',
+      'Lead qualification (Hot / Warm / Cold)',
+      'Appointment booking automation',
+      'CRM integration (Sheets, Notion, HubSpot – basic)',
+      'Email & WhatsApp automated follow-ups',
+      'Monthly optimization & tuning'
     ],
     cta: 'Start Growing',
     recommended: true
   },
   {
-    name: 'Elite',
-    setup: '$7,500+',
-    monthly: '$799/month',
-    description: 'Fully custom AI-powered operations system built for scale',
+    name: 'Pro',
+    setup: '$1,500',
+    monthly: '$199/month',
+    description: 'Advanced AI workflows and automation built for high-volume operations',
     features: [
-      'Multi-model AI integrations (chat, lead scoring, email automation)',
-      'Internal dashboards & business analytics',
-      'Payment and invoice automation',
-      'Monthly strategy and system optimization',
-      'Dedicated monitoring & support',
-      'White-glove custom enterprise development'
+      'Multiple AI workflows (Sales + Support)',
+      'Automated follow-up sequences across WhatsApp, Instagram & Messenger',
+      'Basic performance dashboard',
+      'Custom business logic & rules',
+      'Priority support',
+      'Monthly strategy call'
     ],
-    cta: 'Go Elite'
+    cta: 'Go Pro'
   }
 ];
+
 
 /* =========================
    ADD-ONS
