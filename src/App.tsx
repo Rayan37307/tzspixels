@@ -14,6 +14,8 @@ import Footer from './components/Footer';
 import MedFlowCaseStudy from './pages/MedFlowCaseStudy';
 import TitanRealEstateCaseStudy from './pages/TitanRealEstateCaseStudy';
 import SolarScaleCaseStudy from './pages/SolarScaleCaseStudy';
+import ChatWidget from './components/ChatWidget';
+import './components/ChatWidget.css';
 
 function App() {
   useEffect(() => {
@@ -94,6 +96,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <ChatWidget />
 
       <style>{`
         @keyframes marquee {

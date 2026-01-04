@@ -18,10 +18,11 @@ const Navbar: React.FC = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center font-black text-black text-xl italic tracking-tighter group-hover:rotate-12 transition-transform duration-300">
+          {/* <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center font-black text-black text-xl italic tracking-tighter group-hover:rotate-12 transition-transform duration-300">
             TZS
           </div>
-          <span className="font-heading text-xl font-bold tracking-tight">PIXELS</span>
+          <span className="font-heading text-xl font-bold tracking-tight">PIXELS</span> */}
+          <img src="/logo.png" alt="" className='w-24 h-auto' />
         </a>
         
         <div className="hidden md:flex items-center gap-10">

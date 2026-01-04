@@ -8,8 +8,8 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center font-bold text-white text-[10px] italic">
-                TZS
+              <div className="w-6 h-6 bg-black rounded flex items-center justify-center font-bold text-white text-[10px] italic">
+                <img src="/logo.png" alt="" className='w-full h-auto'/>
               </div>
               <span className="text-lg font-extrabold tracking-tight">Tzs Pixels</span>
             </div>
